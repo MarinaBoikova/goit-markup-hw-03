@@ -111,9 +111,6 @@ body {
   height: 600px;
   margin: 0 auto;
   padding-top: 200px;
-  /* text-align: center;
-    width: 1600px;
-    padding: 200px 452px 280px; */
 }
 
 .hero-title {
@@ -231,6 +228,11 @@ body {
     padding-right: 15px;
 }
 /* ======HEADER============= */
+.header {
+    border-bottom: 1px solid #ECECEC;
+    margin: 0 auto;
+    max-width: 1600px;
+}
 
 .header-container {
   display: flex;
