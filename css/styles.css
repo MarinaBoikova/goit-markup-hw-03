@@ -162,6 +162,8 @@ body {
 }
 .advantages-item{
   width: 270px;
+}
+.advantages-item:not(:last-child) {
   margin-right: 30px;
 }
 /* Works */
@@ -174,8 +176,11 @@ body {
     text-align: center;
 }
 .employee-list-items {
-margin-right: 30px;
+
 width: 270px;
+}
+.employee-list-items:not(:last-child) {
+  margin-right: 30px;
 }
 
 
@@ -213,9 +218,12 @@ width: 270px;
   font-size: 14px;
 }
 .works-list-items {
-margin-right: 30px;
 width: 370px;
 }
+.works-list-items:not(:last-child) {
+  margin-right: 30px;
+}
+
 
 /* team of studio */
 .title-employee {
