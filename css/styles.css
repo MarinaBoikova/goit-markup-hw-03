@@ -84,6 +84,10 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.link{
+  display: block;
+  text-align: center;
+}
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
@@ -111,10 +115,9 @@ body {
 /* Hero */
 .hero {
   background-color: #2f303a;
-  width: 1600px;
-  height: 600px;
   margin: 0 auto;
   padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .hero-title {
@@ -153,24 +156,26 @@ body {
 /* ===advantages studio */
 
 .container-advantages{
-    height: 101px;
 }
 .advantages-list{
     display: flex;
 }
 .advantages-item{
-    margin-right: 30px;
+  width: 270px;
+  margin-right: 30px;
 }
 /* Works */
 .works-list {
     display: flex;
-    justify-content: space-between;
 }
 /* employee */
 .employee-list {
     display: flex;
-    justify-content: space-between;
     text-align: center;
+}
+.employee-list-items {
+margin-right: 30px;
+width: 270px;
 }
 
 
@@ -207,6 +212,10 @@ body {
 .section-text {
   font-size: 14px;
 }
+.works-list-items {
+margin-right: 30px;
+width: 370px;
+}
 
 /* team of studio */
 .title-employee {
@@ -214,12 +223,18 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .position-employee {
   font-size: 16px;
   line-height: 1.19;
+}
+.employee-card {
+padding: 30px;
+}
+
+.section-employee {
+  background-color: #F5F4FA;
 }
 
 /* Footer */
@@ -272,12 +287,10 @@ body {
 .header {
     border-bottom: 1px solid #ECECEC;
     margin: 0 auto;
-    max-width: 1600px;
 }
 .header-container{
-    height: 80px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center
 }
 .menu-list{
@@ -285,7 +298,11 @@ display: flex;
 justify-content: space-between;
 }
 .nav-link {
+  display: block;
+padding-top: 32px;
+  padding-bottom: 32px;
 margin-right: 50px;
+
 }
 
 .contacts-list {
