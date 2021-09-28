@@ -30,6 +30,8 @@ ol {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .list {
   list-style: none;
@@ -164,6 +166,9 @@ body {
 }
 /* ===advantages studio */
 
+.section-advantages{
+  padding-bottom: 0;
+}
 
 .advantages-list {
   display: flex;
@@ -185,6 +190,8 @@ body {
 }
 .employee-list-items {
   width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 .employee-list-items:not(:last-child) {
   margin-right: 30px;
@@ -253,7 +260,7 @@ body {
 /* Footer */
 .footer {
   background-color: #2f303a;
-  margin: 0 auto;
+  margin: 0logo-footer auto;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -267,17 +274,17 @@ body {
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  margin-bottom: 9px;
   margin-top: 20px;
 }
+
 .list-link-footer {
   color: var(--transparent-white-color);
   font-size: 14px;
   font-style: normal;
-  padding-top: 9px;
+  margin-top: 9px;
 }
-.items-link-footer{
-  padding-bottom: 9px;
+.items-link-footer:not(:last-child){
+  margin-bottom: 9px;
 }
 
 .link-footer {
@@ -303,14 +310,14 @@ body {
 }
 .header-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .menu-list {
   display: flex;
   justify-content: space-between;
 }
-.nav-link {
+
+.nav-link:not(:last-child){
   margin-right: 50px;
 }
 
@@ -318,7 +325,7 @@ body {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  align-items: baseline;
+  margin-left: auto;
 }
 
 .contacts-list-item {
